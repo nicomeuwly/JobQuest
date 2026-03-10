@@ -11,7 +11,7 @@ import { Jobdetails } from '../jobdetails';
 export class Jobs {
   jobs: Jobdetails[] = [
     {
-      id: 1,
+      id: 'deded',
       title: 'Frontend Developer',
       company: 'Tech Company',
       location: 'Remote',
@@ -21,7 +21,7 @@ export class Jobs {
       status: 'saved',
     },
     {
-      id: 2,
+      id: 'fessefsef',
       title: 'Backend Developer',
       company: 'Another Tech Company',
       location: 'Paris, France',
@@ -31,7 +31,7 @@ export class Jobs {
       status: 'sended',
     },
     {
-      id: 3,
+      id: 'fesfesfesf',
       title: 'Full Stack Developer',
       company: 'Startup',
       location: 'Berlin, Germany',
@@ -41,7 +41,7 @@ export class Jobs {
       status: 'negative',
     },
     {
-      id: 4,
+      id: 'thtdfhrtfh',
       title: 'Data Scientist',
       company: 'Data Company',
       location: 'New York, USA',

@@ -1,5 +1,5 @@
 export interface Jobdetails {
-    id: number;
+    id: string;
     title: string;
     company: string;
     department?: string;

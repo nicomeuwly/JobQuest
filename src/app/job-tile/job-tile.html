@@ -4,11 +4,11 @@
         <h3 class="font-medium">{{ job.title }}</h3>
         <p class="text-sm">{{ job.company }}, {{ job.location }}</p>
     </div>
-    <span class="h-fit flex items-center gap-1 {{ statusColors[job.status] }} capitalize">
+    <div class="h-fit flex items-center gap-1 {{ statusColors[job.status] }} capitalize">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-4">
+            class="size-6 sm:size-4">
             <path stroke-linecap="round" stroke-linejoin="round" [attr.d]="statusIconsPath[job.status]" />
         </svg>
-        {{ job.status }}
-    </span>
+        <span class="hidden sm:inline">{{ job.status }}</span>        
+    </div>
 </article>
